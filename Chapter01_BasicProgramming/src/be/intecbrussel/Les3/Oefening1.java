@@ -2,6 +2,10 @@ package be.intecbrussel.Les3;
 
 public class Oefening1 {
     public static void main(String[] args){
-        int 
+        float lengte = 12.5f;
+        float breedte = 7.8f;
+
+        System.out.println("De oppervlakte van de rechthoek is : " +(lengte * breedte) + "cm²");
+
     }
 }

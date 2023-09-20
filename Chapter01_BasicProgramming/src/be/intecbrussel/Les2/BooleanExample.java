@@ -1,4 +1,4 @@
-package be.intecbrussel.Les3;
+package be.intecbrussel.Les2;
 
 public class BooleanExample {
     public static void main(String[] args){

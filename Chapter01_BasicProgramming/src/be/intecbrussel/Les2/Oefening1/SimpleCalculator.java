@@ -1,4 +1,4 @@
-package be.intecbrussel.Les2;
+package be.intecbrussel.Les2.Oefening1;
 
 import java.util.Scanner;
 

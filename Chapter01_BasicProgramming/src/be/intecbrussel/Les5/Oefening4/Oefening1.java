@@ -1,2 +1,13 @@
-package be.intecbrussel.Les5.Oefening4;public class Oefening1 {
+package be.intecbrussel.Les5.Oefening4;
+
+public class Oefening1 {
+    public static void main(String[] args) {
+
+        for (int number = 100; number >= 1; number--) {
+            if (number % 7 == 0) {// checks if the number is multiple of 7
+                System.out.println(number);
+
+            }
+        }
+    }
 }

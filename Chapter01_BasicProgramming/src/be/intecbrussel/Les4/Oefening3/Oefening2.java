@@ -1,3 +1,5 @@
+// Maak een applicatie die kan zeggen of de input variabele positief , negatief of 0 is.
+
 package be.intecbrussel.Les4.Oefening3;
 
 import java.util.Scanner;

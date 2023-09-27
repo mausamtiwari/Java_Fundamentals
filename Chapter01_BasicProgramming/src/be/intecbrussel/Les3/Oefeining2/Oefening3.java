@@ -1,11 +1,12 @@
-package be.intecbrussel.Les3.Oefeining2;
+/* Gebruik de Relational operators op de variabelen hieronder. Bekijk alle mogelijkheden om deze te
+gebruiken*/
 
+package be.intecbrussel.Les3.Oefeining2;
 public class Oefening3 {
     public static void main( String[] args){
         byte aNum = 10;
         int bNum = 5;
         long cNum = 5;
-
 
         System.out.println("aNum is equal to bNum: " + (aNum == bNum));
         System.out.println("bNum is smaller than aNum: " + (bNum < aNum));

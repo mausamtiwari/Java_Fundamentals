@@ -1,9 +1,12 @@
+/*Maak een applicatie die vraagt naar je naam, adres en telefoonnummer en zorg ervoor dat het netjes onder elkaar
+ uitprint*/
+
 package be.intecbrussel.Les2.Oefening1;
 
 import java.util.Scanner;
 
 public class Oefening4 {
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         Scanner myObj = new Scanner(System.in);
         System.out.println("Please enter you name, address and Telephone number: ");

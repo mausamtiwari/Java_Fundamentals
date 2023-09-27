@@ -1,3 +1,5 @@
+// Gebruik een for loop. Print elke waarde die je door 7 kunt delen van 1 tot en met 100 in omgekeerde volgorde.
+
 package be.intecbrussel.Les5.Oefening4;
 
 public class Oefening1 {

@@ -1,10 +1,10 @@
-package be.intecbrussel.Les3.Oefeining2;
+// Gebruik de Relational operators op de variabelen hieronder . Bekijk alle mogelijkheden om deze te gebruiken.
 
+package be.intecbrussel.Les3.Oefeining2;
 public class Oefening4 {
     public static void main(String[] args){
         short shortNum = 101;
         float floatNum = 10.99F;
-        boolean booVar = true;
 
         System.out.println("floatNum = " + (floatNum += shortNum));
         System.out.println("shortNum = " + (shortNum += floatNum));
@@ -12,8 +12,8 @@ public class Oefening4 {
         System.out.println("shortNUm = " + (shortNum *= floatNum));
         System.out.println("floatNum = " + (floatNum /= shortNum));
         System.out.println("shortNum = " + (shortNum %= floatNum));
-        System.out.println("booVar = " + (shortNum < shortNum));
-        System.out.println("booVar = " + (floatNum >= shortNum));
+        System.out.println("booVar = " + (shortNum < floatNum));
+        System.out.println("booVar = " + (floatNum == shortNum));
 
     }
 }

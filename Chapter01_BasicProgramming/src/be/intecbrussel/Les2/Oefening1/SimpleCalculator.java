@@ -1,5 +1,5 @@
 /* Schrijf een Java programma om de som optellen vermenigvuldigen aftrekken delen en rest van twee getallen af te
-drukken Noem de broncode als SimpleCalculator */
+   drukken Noem de broncode als SimpleCalculator */
 
 package be.intecbrussel.Les2.Oefening1;
 

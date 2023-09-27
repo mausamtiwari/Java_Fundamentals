@@ -1,5 +1,5 @@
 /* Gebruik de Relational operators op de variabelen hieronder. Bekijk alle mogelijkheden om deze te
-gebruiken*/
+   gebruiken*/
 
 package be.intecbrussel.Les3.Oefeining2;
 public class Oefening3 {

@@ -1,5 +1,5 @@
 /* Gebruik een do while loop. Print je naam en leeftijd uit. Begin je leeftijd op 0 en laat de loop breken op de
-leeftijd dat je vandaag bent.*/
+   leeftijd dat je vandaag bent.*/
 
 package be.intecbrussel.Les5.Oefening4;
 

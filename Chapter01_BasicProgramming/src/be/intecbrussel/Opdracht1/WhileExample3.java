@@ -1,3 +1,5 @@
+// WhileExample3: Maak een programma dat alle machten van 5 afdrukt die kleiner zijn dan 10000. 
+
 package be.intecbrussel.Opdracht1;
 
 public class WhileExample3 {

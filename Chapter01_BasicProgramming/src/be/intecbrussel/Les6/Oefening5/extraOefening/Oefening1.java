@@ -1,8 +1,8 @@
 /* Schrijf een programma dat de faculteit van een bepaald getal te vinden.
-Uitleg: De faculteit van een niet-negatief geheel getal n is het product van alle positieve gehele getallen kleiner dan
-of gelijk aan n. De faculteit van 4 (geschreven als 4!) is bijvoorbeeld 4 x 3 x 2 x 1 = 24.
-Uw programma moet een invoer van de gebruiker nemen (met behulp van de klasse Scanner) en de faculteit van dat getal
-berekenen. Zorg ervoor dat er invoervalidatie is voor negatieve getallen. */
+   Uitleg: De faculteit van een niet-negatief geheel getal n is het product van alle positieve gehele getallen kleiner dan
+   of gelijk aan n. De faculteit van 4 (geschreven als 4!) is bijvoorbeeld 4 x 3 x 2 x 1 = 24.
+   Uw programma moet een invoer van de gebruiker nemen (met behulp van de klasse Scanner) en de faculteit van dat getal
+   berekenen. Zorg ervoor dat er invoervalidatie is voor negatieve getallen. */
 
 package be.intecbrussel.Les6.Oefening5.extraOefening;
 

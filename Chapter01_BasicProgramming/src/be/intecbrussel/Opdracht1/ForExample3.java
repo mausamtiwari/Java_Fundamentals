@@ -1,3 +1,5 @@
+// ForExample3: Maak een programma dat alle machten van 11 afdrukt die kleiner zijn dan 10000.
+
 package be.intecbrussel.Opdracht1;
 
 public class ForExample3 {

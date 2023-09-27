@@ -1,3 +1,5 @@
+// WhileExample2: Maak een programma dat alle veelvouden van 3 afdrukt die kleiner zijn dan 50.
+
 package be.intecbrussel.Opdracht1;
 
 public class WhileExample2 {

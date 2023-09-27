@@ -1,3 +1,6 @@
+/* ForExample7: Maak een programma dat alle getallen tussen 0 en 10000 afdrukt die zowel deelbaar door 6 als door 28.
+   Hint: maak gebruik van de % operator. */
+
 package be.intecbrussel.Opdracht1;
 
 public class ForExample7 {

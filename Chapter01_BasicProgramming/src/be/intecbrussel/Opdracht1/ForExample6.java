@@ -1,3 +1,5 @@
+// ForExample6: Maak ForExample5 oefening gebruik van de ? : operator in plaats van het if else statement.
+
 package be.intecbrussel.Opdracht1;
 
 public class ForExample6 {

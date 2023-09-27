@@ -1,5 +1,5 @@
-/*Maak een applicatie die vraagt naar je naam, adres en telefoonnummer en zorg ervoor dat het netjes onder elkaar
- uitprint*/
+/* Maak een applicatie die vraagt naar je naam, adres en telefoonnummer en zorg ervoor dat het netjes onder elkaar
+   uitprint */
 
 package be.intecbrussel.Les2.Oefening1;
 

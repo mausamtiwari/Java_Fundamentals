@@ -1,3 +1,5 @@
+// WhileExample1: Maak een programma dat de getallen van 100 tot en met 120 afdrukt in omgekeerde volgorde.
+
 package be.intecbrussel.Opdracht1;
 
 public class WhileExample1 {

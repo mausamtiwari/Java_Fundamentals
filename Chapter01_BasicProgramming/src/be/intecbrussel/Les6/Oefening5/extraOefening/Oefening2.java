@@ -1,6 +1,6 @@
 /* Schrijf een programma dat vraagt dat de gebruiker getallen één voor één in te voeren, waarbij elk getal wordt
-opgeteld bij een sum totaal. Het programma verlaat de loop wanneer de gebruiker -1 invoert en drukt vervolgens de sum
-van alle ingevoerde getallen af (behalve -1). */
+   opgeteld bij een sum totaal. Het programma verlaat de loop wanneer de gebruiker -1 invoert en drukt vervolgens de sum
+   van alle ingevoerde getallen af (behalve -1). */
 
 package be.intecbrussel.Les6.Oefening5.extraOefening;
 //import java.util.InputMismatchException;

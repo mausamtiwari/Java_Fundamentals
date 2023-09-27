@@ -1,5 +1,5 @@
 /* Schrijf een programma om de oppervlakte van een rechthoek te berekenen . De rechthoek is 12,5 cm lang en 7,8 cm
-breed.*/
+   breed.*/
 
 package be.intecbrussel.Les3.Oefeining2;
 

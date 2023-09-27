@@ -1,5 +1,5 @@
 /* Cast deze variabel naar een int.
-     double number = 10.99;*/
+   double number = 10.99;*/
 
 package be.intecbrussel.Les6.Oefening5;
 

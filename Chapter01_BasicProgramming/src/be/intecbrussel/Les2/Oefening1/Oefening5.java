@@ -1,5 +1,5 @@
-/*Schrijf een applicatie die vraagt dat je 5 nummers invoert . Print deze nummers uit met het gemiddelde van deze
-nummers*/
+/* Schrijf een applicatie die vraagt dat je 5 nummers invoert . Print deze nummers uit met het gemiddelde van deze
+   nummers*/
 
 package be.intecbrussel.Les2.Oefening1;
 

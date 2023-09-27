@@ -1,5 +1,5 @@
 /* Vergelijk deze 2 variabelen : bool01 = true en bool02 = false. Gebruik hiervoor alle 3 de logical operators voor
-package be.intecbrussel.Les3.Oefeining2;*/
+   package be.intecbrussel.Les3.Oefeining2;*/
 
 package be.intecbrussel.Les3.Oefeining2;
 

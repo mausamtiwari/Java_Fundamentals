@@ -1,3 +1,5 @@
+// ForExample1: Maak een programma dat de getallen van 350 tot 400 afdrukt in omgekeerde volgorde.
+
 package be.intecbrussel.Opdracht1;
 
 public class ForExample1 {

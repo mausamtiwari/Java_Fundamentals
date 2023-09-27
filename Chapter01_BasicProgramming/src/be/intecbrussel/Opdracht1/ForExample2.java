@@ -1,3 +1,5 @@
+// ForExample2: Maak een programma dat alle veelvouden van 3 afdrukt die kleiner zijn dan 200.
+
 package be.intecbrussel.Opdracht1;
 
 public class ForExample2 {

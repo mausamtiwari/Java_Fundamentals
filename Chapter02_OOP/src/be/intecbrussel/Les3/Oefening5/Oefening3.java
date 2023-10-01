@@ -16,7 +16,7 @@ public class Oefening3 {
             System.out.println("Please guess a number: ");// user enters a number
             if (scanNum.hasNextInt()) {
                 Random rand = new Random();
-                int randNum = rand.nextInt(2); // a random integer is generated.
+                int randNum = rand.nextInt(11); // a random integer is generated.
                 System.out.println("The number generated randomly is: " + randNum);
 
                 number = scanNum.nextInt();

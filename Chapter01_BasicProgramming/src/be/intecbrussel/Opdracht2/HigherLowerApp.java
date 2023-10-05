@@ -40,22 +40,21 @@ public class HigherLowerApp {
     public static void main(String[] args) {
 
         int guessedNumber;
-        boolean doesNotMatch = true;
+        boolean numMatch = false;
         System.out.println("Welcome to the Higher Lower app.");
         Scanner guess = new Scanner(System.in);
         System.out.print("Please guess a number: ");
+        Random rand = new Random();
+        int randomNumber = rand.nextInt(101);  // generates random number upto 100.
 
-        while (doesNotMatch) {
+        while (!numMatch) {
 
             if (guess.hasNextInt()) { // Cehcks if the input is of int data type.
-
                 guessedNumber = guess.nextInt();
-                Random rand = new Random();
-                int randomNumber = rand.nextInt(101); // generates random number upto 100.
 
                 if (guessedNumber == randomNumber) { // if guessed number is equal to randomly generated number, exits the loop.
                     System.out.println("Congrats! You guessed it right. The randomly generated number is: " + randomNumber);
-                    doesNotMatch = false;
+                    numMatch = true;
                 } else if (guessedNumber > randomNumber) { // If the guessed number is higher, asks user to try again.
                     System.out.print("The guessed number is higher than randomly generated number, " + randomNumber + ". Please try again: ");
                     guess.nextLine();
@@ -69,6 +68,7 @@ public class HigherLowerApp {
                 guess.nextLine();
             }
         }
+
         System.out.println("Thank you for chosing our app.");
     }
 }

@@ -14,6 +14,8 @@ public class MathExample2 {
 
         System.out.println(Math.max(3L, 6.5f));
         System.out.println(Math.max(10L, 11.5D));
+        System.out.println(Math.max(10D, 11L));
+        System.out.println(Math.max(13, 11D));
 
         int result05 = Math.min(7, 9);
         double result06 = Math.min(1.3, 0.6);

@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Chapter01_BasicProgramming/Chapter01_BasicProgramming.iml" filepath="$PROJECT_DIR$/Chapter01_BasicProgramming/Chapter01_BasicProgramming.iml" />
       <module fileurl="file://$PROJECT_DIR$/Chapter02_OOP/Chapter02_OOP.iml" filepath="$PROJECT_DIR$/Chapter02_OOP/Chapter02_OOP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter03_Classes/Chapter03_Classes.iml" filepath="$PROJECT_DIR$/Chapter03_Classes/Chapter03_Classes.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java_Fundamentals.iml" filepath="$PROJECT_DIR$/Java_Fundamentals.iml" />
     </modules>
   </component>

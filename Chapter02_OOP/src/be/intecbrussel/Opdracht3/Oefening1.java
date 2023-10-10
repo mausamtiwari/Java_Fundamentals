@@ -18,9 +18,10 @@ public class Oefening1 {
         String Username;
         System.out.print("Please enter the user name: ");
 
-        while (chance-- > 0) {// The code loops until the remaning chance is 0.
+        while (chance > 0) {// The code loops until the remaning chance is 1.
 
             Username = scans.nextLine(); // Takes the username from the user.
+            chance--;
 
             if ((Username.equalsIgnoreCase("gorilla")) || (Username.equalsIgnoreCase("gori")) ||
                     (Username.equalsIgnoreCase("Harambe"))) {// Checks if the usernames contains prohibited names.

@@ -9,5 +9,56 @@
 
 package be.intecbrussel.Opdracht3;
 
+import java.util.Random;
+import java.util.Scanner;
+
 public class Oefening4 {
+    public static void main(String[] args) {
+
+        int CurrentCredit = 17;
+        int CurrentEuro = 22;
+
+
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Do you want to buy 20 credits for 5 euros?: ");
+        String myChoice = scan.nextLine();
+
+        do {
+            if (myChoice.equalsIgnoreCase("y")) {
+                CurrentCredit += 20;
+                CurrentEuro -= 5;
+                System.out.println(CurrentCredit);
+                System.out.println(CurrentEuro);
+                System.out.println("Congratulations yout have won the lootbox.");
+
+            } else if (myChoice.equalsIgnoreCase("n")) {
+
+                Random rand = new Random();
+                int RandCredit = rand.nextInt(20) + 1;
+                System.out.println("You rolled: " + RandCredit);
+
+                if (RandCredit == 13) {
+
+                    CurrentCredit = CurrentCredit + 3;
+                    System.out.println("Your curremt credit is : " + CurrentCredit);
+                    System.out.println("Congratulations you won!");
+                    break;
+
+                } else if (RandCredit == 7) {
+
+                    System.out.println("Your current credit is: " + (CurrentCredit += 2));
+                    scan.nextLine();
+
+                } else {
+                    System.out.println("You have lost.");
+                    break;
+
+                }
+
+            }
+        }
+        while (CurrentCredit <= 20);
+
+
+    }
 }

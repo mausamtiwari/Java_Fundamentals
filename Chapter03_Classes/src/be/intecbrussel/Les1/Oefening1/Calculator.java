@@ -22,7 +22,7 @@ public class Calculator {
         return Math.min(Math.min(num1, num2), num3);   // Uses Math.min method to find the minumum number.
     }
 
-    public boolean EvenOdd(int num1) {
+    public boolean evenOdd(int num1) {
         if (num1 == 0) return true;                     // if the number is 0, it ie even
         while (num1 != 0) {                             // loop runs until the number reaches 0.
             int lastDigit = num1 % 10;                  // This gets the last digit of the number by taking the remainder when divided by 10.

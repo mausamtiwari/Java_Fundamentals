@@ -17,7 +17,7 @@ public class Oefening2 {
         System.out.println("\nYou have total " + giftsOwned + " gifts in the beginning.");   // Prints the initial number of gift.
 
         do {
-            if (friendShipRank % critical == 0 && friendShipRank > 0) {  // In every 5 critical, 2 points is awarded.
+            if (friendShipRank % critical == 0) {  // In every 5 critical, 2 points is awarded.
                 points += 2;
             } else points += 1;     // Points increase by 1 with the increase in friendship rank.
 

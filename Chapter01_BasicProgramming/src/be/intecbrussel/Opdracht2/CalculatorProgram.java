@@ -38,17 +38,17 @@ public class CalculatorProgram {
             if (ageScan.hasNextInt()) { // Only takes age of int data type.
                 int age = ageScan.nextInt();
 
-                if (age < 2 & age >= 0) { // Checks if the age is smaller than two and greater than or equal to 0.
-                    System.out.println("You are a baby.");
+                if (age >= 18) { // Checks if the age is smaller than two and greater than or equal to 0.
+                    System.out.println("You are an adult.");
                     break;
-                } else if (age >= 2 && age < 10) {// Checks if the age is greater than or equal to 2 and smaller than 10.
-                    System.out.println("You are a child.");
-                    break;
-                } else if (age >= 10 && age < 18) {// Checks if the age is greater than or equal to 10 and smaller than 18.
+                } else if (age >= 10) {// Checks if the age is greater than or equal to 2 and smaller than 10.
                     System.out.println("You are a teen.");
                     break;
-                } else if (age >= 18) {// Checks if the ga eis greater than or equal to 18.
-                    System.out.println("You are an adult.");
+                } else if (age >= 2) {// Checks if the age is greater than or equal to 10 and smaller than 18.
+                    System.out.println("You are a child");
+                    break;
+                } else if (age >= 0) {// Checks if the ga eis greater than or equal to 18.
+                    System.out.println("You are a baby.");
                     break;
                 } else {// Checks if the age is negative.
                     System.out.print("The age can't be negative. ");

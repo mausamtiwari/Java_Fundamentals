@@ -17,7 +17,7 @@ public class Oefening3 {
 
         for (encounteredMonsters = 1; encounteredMonsters <= maxMonsters; encounteredMonsters++) {
             Random rand = new Random();
-            int randExperience = rand.nextInt(3) + 1;   // Generates monsters randomly with 1,2 and 3 experience points. bound 3 generates number from 0 to 2. Hence, +1 to generate from 1 to 3.
+            int randExperience = rand.nextInt(3)+1 ;   // Generates monsters randomly with 1,2 and 3 experience points. bound 3 generates number from 0 to 2. Hence, +1 to generate from 1 to 3.
 
             switch (randExperience) {
                 case 1:
@@ -34,7 +34,7 @@ public class Oefening3 {
             }
 
             System.out.println("Total experience points gained: " + experiencePoints); // Prints the experience point collected in every iteration.
-            System.out.println("Total numbers of minsters encountered: " + encounteredMonsters); //Prints the encountered monsters in every iteration.
+            System.out.println("Total numbers of monsters encountered: " + encounteredMonsters); //Prints the encountered monsters in every iteration.
 
             if (experiencePoints >= 15) {  // Exits the loop if 15 experience points is gained.
                 System.out.println("\nYou have reached 15 experience points. Level up!");

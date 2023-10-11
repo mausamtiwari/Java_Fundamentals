@@ -1,6 +1,6 @@
 /* Maak een 3D array van 5 5 5 elementen en print de waarde van deze elementen uit. */
 
-package Oefening5;
+package be.intecbrussel.Oefening5;
 
 public class Oefening1 {
     public static void main(String[] args) {

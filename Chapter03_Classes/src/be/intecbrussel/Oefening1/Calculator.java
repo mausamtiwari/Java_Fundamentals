@@ -15,7 +15,7 @@
    - delen
    - modulus */
 
-package be.intecbrussel.Les1.Oefening1;
+package be.intecbrussel.Oefening1;
 
 public class Calculator {
     public int kleinsteNummer(int num1, int num2, int num3) {

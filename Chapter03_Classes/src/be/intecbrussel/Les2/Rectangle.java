@@ -51,7 +51,7 @@ public class Rectangle {
     }
 
     public void setHeight(int height) {
-        this.height = height < 0 ? Math.abs(height) : height;
+        this.height = height < 0 ? Math.abs(-height) : height;
     }
 
     public int getWidth() {

@@ -6,6 +6,7 @@ package be.intecbrussel.Oefening2;
 
 import java.util.Arrays;
 
+
 public class Oefening2 {
     public static void main(String[] args) {
         String str = ("Maak van deze string een char array");
@@ -20,8 +21,7 @@ public class Oefening2 {
             System.out.print(charArr[j]);
         }
 
-        System.out.println("\n" + Arrays.toString(str.toCharArray()));  // Prints the string array as the char array.
-
+        System.out.println("\n" + Arrays.toString(charArr));  // Prints the string array as the char array.
 
     }
 }

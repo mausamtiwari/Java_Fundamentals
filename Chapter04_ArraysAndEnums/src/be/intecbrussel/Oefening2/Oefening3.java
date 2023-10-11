@@ -8,7 +8,6 @@ import static java.lang.Math.floor;
 
 public class Oefening3 {
 
-
     static int[] numbers = {20, 30, 25, 35, -16, 60, -100};
 
     public static void main(String[] args) {

@@ -1,5 +1,6 @@
 package be.intecbrussel.Oefening2;
 
+
 public class CircleApp {
     public static void main(String[] args) {
 
@@ -27,6 +28,8 @@ public class CircleApp {
 
         System.out.println("\nThe area of third circle is: " + circle3.getArea());
         System.out.println("The perimeter of third circle is: " + circle3.getPerimeter());
+        //System.out.println(getCount());
+
 
 
     }

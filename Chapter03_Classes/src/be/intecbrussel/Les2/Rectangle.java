@@ -1,5 +1,7 @@
 package be.intecbrussel.Les2;
 
+import java.util.Objects;
+
 public class Rectangle {
     private int height;
     private int width;
@@ -80,6 +82,27 @@ public class Rectangle {
         this.width = this.width + Math.abs(d);
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Rectangle rectangle)) return false;
+        return getHeight() == rectangle.getHeight() && getWidth() == rectangle.getWidth() && getX() == rectangle.getX() && getY() == rectangle.getY();
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(getHeight(), getWidth(), getX(), getY());
+    }
+
+    @Override
+    public String toString() {
+        return "Rectangle{" +
+                "height=" + height +
+                ", width=" + width +
+                ", x=" + x +
+                ", y=" + y +
+                '}';
+    }
 }
 
 

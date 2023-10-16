@@ -1,7 +1,7 @@
 /* Maak een klas met de naam Circle. Jullie kunnen alle details in de UML zien. En maak een andere klas van de naam
    CircleApp en probeer alle methoden aan te roepen.
    Circle
-   + ANGLES:int=0 (static)
+   + ANGLES:int=0 (static final)
    - count: int   (static)
    - x:int
    - y:int
@@ -12,7 +12,7 @@
    + Circle(c:Circle)
    + getX():int
    + setX(x:int)
-   +getY():int
+   + getY():int
    + setY(y:int)
    + getRadius():int
    + setRadius(radius:int)
@@ -23,14 +23,38 @@
 
 package be.intecbrussel.Oefening2;
 
+import java.util.Objects;
+
 public class Circle {
-    public static int ANGLES = 0;
+    public static final int ANGLES = 0;
     private static int count;
     private int x;
     private int y;
     private int radius;
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Circle circle)) return false;
+        return getX() == circle.getX() && getY() == circle.getY() && getRadius() == circle.getRadius();
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(getX(), getY(), getRadius());
+    }
+
+    @Override
+    public String toString() {
+        return "Circle{" +
+                "x=" + x +
+                ", y=" + y +
+                ", radius=" + radius +
+                '}';
+    }
+
     public Circle() {                            // No args constructor.
+
     }
 
     public Circle(int radius) {                  // Constructor with radius argument
@@ -86,6 +110,7 @@ public class Circle {
     }
 
     public static int getCount() {             // count getter
+        count++;
         return count;
     }
 

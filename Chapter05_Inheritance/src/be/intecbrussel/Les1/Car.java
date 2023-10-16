@@ -23,7 +23,9 @@ public class Car extends Vehicle{
     }
 
     // Vehicle class methodeen
+    @Override
     public void honk() {
+        super.honk();
         System.out.println("tuut tuut!");
     }
 

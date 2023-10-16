@@ -11,14 +11,15 @@ public class PersonApp {
         student.study();
         System.out.println();
 
-        Parent parent = new Parent("Tirtha", 57, "Mausam");
+        Parent parent = new Parent("Tirtha", 57, "Mausam", "Johan");
         parent.introduction();
         parent.attendPTmeeting();
         System.out.println();
 
-        Teacher teacher = new Teacher("Johan", 44, "a320018", "Java");
+        Teacher teacher = new Teacher("Johan", 44, "a320018", "Java", "Mausam", "Tirtha");
         teacher.introduction();
         teacher.teach();
+        teacher.attendPTmeeting();
 
 
     }

@@ -12,7 +12,6 @@ public class Elephant extends Animal {
         this.name = name;
         this.age = age;
         this.food = food;
-
     }
 
     @Override

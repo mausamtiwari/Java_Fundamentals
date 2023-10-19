@@ -1,8 +1,8 @@
 package be.intecbrussel.Les1.Example4;
 
-public class Child extends Parent{
+public class Child extends Parent {
     @Override
-    void method(){
+    void method() {
         System.out.println("Method from Child.");
     }
 }

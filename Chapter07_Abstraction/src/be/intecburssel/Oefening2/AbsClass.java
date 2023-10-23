@@ -7,7 +7,7 @@ abstract class AbsClass {
 
     public abstract void aMethod();
 
-    public void cmethod(){
+    public void cMethod(){
         System.out.println("This is a normal method of abstract class.");
     }
 }

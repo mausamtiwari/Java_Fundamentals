@@ -2,8 +2,8 @@ package be.intecbrussel.Les4;
 
 public class EqualsExample3 {
     public static void main(String[] args) {
-        String s1 = new String("HELLO");
-        String s2 = new String("HELLO");
+        String s1 = "HELLO";
+        String s2 = "HELLO";
 
 
         System.out.println("s1 and s2 are equal: " + (s1 == s2)); // String is an object and  has reference and input.

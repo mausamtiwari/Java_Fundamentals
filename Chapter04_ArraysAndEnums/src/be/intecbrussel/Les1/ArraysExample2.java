@@ -15,13 +15,13 @@ public class ArraysExample2 {
             System.out.println(myArr[i]);
         }
 
-        System.out.println("");
+        System.out.println();
 
         for (int j : myArr) {
             System.out.println(j);
         }
 
-        System.out.println("");
+        System.out.println();
 
         System.out.println(Arrays.toString(myArr));
     }

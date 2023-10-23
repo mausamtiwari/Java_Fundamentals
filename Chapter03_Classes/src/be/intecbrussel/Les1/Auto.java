@@ -2,8 +2,8 @@ package be.intecbrussel.Les1;
 
 public class Auto {
     // properties van de auto class
-    private String merk;
-    private String model;
+    private final String merk;
+    private final String model;
     private int speed;
 
     // All-args construtor die op public staat.

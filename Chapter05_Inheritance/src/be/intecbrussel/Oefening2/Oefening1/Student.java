@@ -4,8 +4,8 @@
 package be.intecbrussel.Oefening2.Oefening1;
 
 public class Student extends Person {
-    private String studendID;
-    private String major;
+    private final String studendID;
+    private final String major;
 
     public Student(String name, int age, String studendID, String major) {
         super(name, age);                                                      // super class arguments

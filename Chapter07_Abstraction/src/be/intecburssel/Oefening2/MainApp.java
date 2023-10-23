@@ -11,6 +11,6 @@ public class MainApp {
     public static void main(String[] args) {
         SubClass subClass = new SubClass();      // Object of subclass created.
         subClass.aMethod();                      // Abstract method called.
-        subClass.cmethod();                      // Normal method from abstract class called.
+        subClass.cMethod();                      // Normal method from abstract class called.
     }
 }

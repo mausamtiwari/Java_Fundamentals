@@ -1,7 +1,7 @@
 package be.intecbrussel.Les1;
 
 public class Vehicle2 {
-    private String typeOfVehicle;
+    private final String typeOfVehicle;
 
     // This will be executed second
 

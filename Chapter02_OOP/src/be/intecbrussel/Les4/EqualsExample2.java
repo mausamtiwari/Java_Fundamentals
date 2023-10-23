@@ -3,7 +3,7 @@ package be.intecbrussel.Les4;
 public class EqualsExample2 {
     public static void main(String[] args) {
         String str01 = "Hello Intec";
-        String str02 = new String("Hello Intec");
+        String str02 = "Hello Intec";
         String str03= str02;
 
         // False doordat we 2 objecten vergelijken met andere referentiepunten.

@@ -4,10 +4,10 @@
 package be.intecbrussel.Oefening2.Oefening1;
 
 public class Teacher extends Person {
-    private String teachersId;
-    private String subject;
-    private String studentName;
-    private String parentsName;
+    private final String teachersId;
+    private final String subject;
+    private final String studentName;
+    private final String parentsName;
 
     public Teacher(String name, int age, String teachersId, String subject, String studentName, String parentsName) {
         super(name, age);                            // variables from super class.

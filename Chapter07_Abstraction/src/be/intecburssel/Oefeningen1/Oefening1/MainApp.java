@@ -3,7 +3,7 @@
      een methode getBalance
    • Roep deze methode op en creëer een object van elke klas */
 
-package be.intecburssel.Oefening1;
+package be.intecburssel.Oefeningen1.Oefening1;
 
 public class MainApp {
     public static void main(String[] args) {

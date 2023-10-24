@@ -1,4 +1,4 @@
-package be.intecburssel.Oefening2;
+package be.intecburssel.Oefeningen1.Oefening2;
 
 abstract class AbsClass {
     public AbsClass(){

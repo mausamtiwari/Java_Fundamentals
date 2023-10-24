@@ -1,4 +1,4 @@
-package be.intecburssel.Oefening1;
+package be.intecburssel.Oefeningen1.Oefening1;
 
 public class BankB extends Bank {
     @Override

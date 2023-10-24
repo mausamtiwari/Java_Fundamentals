@@ -5,7 +5,7 @@
    • Dezeklas heeft de methode aMethod dat als print statement heeft: "This is abstract method".
    • Daarna creeer je een object van sub klas en roep de methodes op. */
 
-package be.intecburssel.Oefening2;
+package be.intecburssel.Oefeningen1.Oefening2;
 
 public class MainApp {
     public static void main(String[] args) {

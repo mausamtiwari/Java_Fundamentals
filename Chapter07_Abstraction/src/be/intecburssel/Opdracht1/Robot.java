@@ -13,10 +13,13 @@ public class Robot {
         boot();                       // Boot method called in constructor.
     }
 
-    public void boot() {
-        System.out.println("The robot " + unitName + " is starting up.");
+    public String getUnitName() {
+        return unitName;
     }
 
+    public void boot() {
+        System.out.println("The robot " + getUnitName() + " is starting up.");
+    }
 
     @Override
     public String toString() {

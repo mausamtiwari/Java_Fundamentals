@@ -11,7 +11,7 @@ public class AudioPlayer implements MediaPlayer {
             mediaAdapter = new MediaAdapter(audioType);         // if the audio type is vlc or mp4 then mediaAdapter object is created which uses AdvancedMediaPLayer interface.
             mediaAdapter.play(audioType, fileName);             // play method of MediaAdaptor object which is called.
         } else {                                                // If the audio type is none of the above, it is not supported.
-            System.out.println("Invalid media. " + audioType + " format not supported");
+            System.out.println("Invalid media ." + audioType + " format not supported.");
         }
 
 

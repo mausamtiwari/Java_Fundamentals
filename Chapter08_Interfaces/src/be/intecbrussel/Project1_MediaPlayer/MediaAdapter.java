@@ -11,6 +11,7 @@ public class MediaAdapter implements MediaPlayer {
         }
     }
 
+    @Override
     public void play(String audioType, String fileName) {
         if (audioType.equalsIgnoreCase("vlc")) {
             advancedMediaPlayer.playVlc(fileName);      // If audio type is vlc, playVlc method is invoked from advancedMediaPlayer class which is implemented by VlcPlayer class containing playVlc() method.

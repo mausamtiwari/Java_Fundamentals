@@ -1,4 +1,4 @@
-package be.intecbrussel.StudentScoreProject;
+package be.intecbrussel.StudentInfo;
 
 public class Student extends Person {
     private static int incrementId = 0;

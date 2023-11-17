@@ -1,4 +1,4 @@
-package be.intecbrussel.StudentScoreProject;
+package be.intecbrussel.StudentInfo;
 
 public class ScoreInfo {
     Student student;

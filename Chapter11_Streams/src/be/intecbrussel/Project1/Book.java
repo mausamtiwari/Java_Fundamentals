@@ -30,7 +30,7 @@ public class Book {
         return releaseDate;
     }
 
-    public String getGenre() {
+    public String  getGenre() {
         return genre;
     }
 

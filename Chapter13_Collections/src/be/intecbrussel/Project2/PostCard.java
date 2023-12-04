@@ -29,10 +29,7 @@ public class PostCard {
 
     @Override
     public String toString() {
-        return "PostCard{" +
-                "Country='" + Country + '\'' +
-                ", Continent='" + Continent + '\'' +
-                '}';
+        return   Country + ": " + Continent ;
     }
 
     @Override

@@ -9,6 +9,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Chapter14_Exceptions" target="17" />
       <module name="Game" target="17" />
     </bytecodeTargetLevel>
   </component>

@@ -1,7 +1,8 @@
-package be.intecbrussel.Oefeningen.Project3;
+package be.intecbrussel.Project3;
+
 
 import java.util.*;
-import java.util.stream.Collectors;
+
 
 public class Patient {
     String nationalRegistryNumber;
@@ -111,24 +112,6 @@ public class Patient {
         return allPatients;
     }
 
-    public static void patientSorter() {
-        Set<Patient> patientSort = new LinkedHashSet<>(getAllPatients());
-        System.out.println(patientSort);
-    }
-
-    public static void tempAgePriority() {
-        try {
-            PriorityQueue<Patient> pq = new PriorityQueue<>(getAllPatients());
-            Comparator.comparing(Patient::getTemperature)
-                    .thenComparing(Patient::getAge);
-            System.out.println(pq.poll());
-        } catch (ClassCastException e) {
-            System.out.println("Works");
-        }
-
-
-    }
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -143,6 +126,11 @@ public class Patient {
 
     @Override
     public String toString() {
-        return nationalRegistryNumber + " " + fullName + " " + age + " " + temperature + " " + unknownVirus + " " + insured;
+        return "|Reg: " + nationalRegistryNumber +
+                " fullName: " + fullName +
+                " age: " + age +
+                " temp: " + temperature +
+                " virus: " + unknownVirus +
+                " insured: " + insured + "| ";
     }
 }

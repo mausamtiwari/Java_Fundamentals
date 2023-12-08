@@ -1,4 +1,4 @@
-package be.intecbrussel.Les1.Example2;
+package be.intecbrussel.Les1.Synchronize;
 
 public class Multiplier {
     public int multiplyNumbers(int a, int b) {             // method overloading

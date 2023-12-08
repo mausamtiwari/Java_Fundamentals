@@ -1,6 +1,6 @@
 // Method overloading Example
 
-package be.intecbrussel.Les1.Example2;
+package be.intecbrussel.Les1.Synchronize;
 
 public class MainApp {
     public static void main(String[] args) {

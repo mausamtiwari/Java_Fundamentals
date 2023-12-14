@@ -38,7 +38,7 @@ public class VillianSpot {
                 thread3.start();
             }
 
-            Thread.sleep(random.nextInt(30000));  // It will take us between 0-30 secs to disarm the bomb.
+            Thread.sleep(random.nextLong(30000));  // It will take us between 0-30 secs to disarm the bomb.
             // Bomb explosion Time.
             bombDiffuseTime = LocalDateTime.now();
 
